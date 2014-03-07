@@ -37,6 +37,8 @@ header {
     float: left;
     margin-top: 17px;
     margin-left: 15px; }
+    header .logo:hover {
+      opacity: 0.8; }
   header nav {
     float: left;
     margin-left: 215px;
@@ -55,9 +57,17 @@ header {
           header nav ul li a:hover {
             opacity: 0.8; }
 
-h1 {
-  font-size: 81px;
-  color: white;
-  text-shadow: -1px -1px white, 1px 1px #444; }
-  h1:first-letter {
-    font-size: 96px; }
+/*-- main --*/
+.mainvisual {
+  margin: 0 auto;
+  width: 100%;
+  min-width: 1080px;
+  height: 491px;
+  background: url(images/mainvisual.png) no-repeat;
+  background-size: 100% auto; }
+  .mainvisual h1 {
+    font-size: 81px;
+    color: white;
+    text-shadow: -1px -1px white, 1px 1px #444; }
+    .mainvisual h1:first-letter {
+      font-size: 96px; }

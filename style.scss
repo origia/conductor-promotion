@@ -42,6 +42,9 @@ header {
 		float: left;
 		margin-top: 17px;
 		margin-left: 15px;
+		&:hover {
+			opacity: 0.8;
+		}
 	}
 	nav {
 		float: left;
@@ -66,12 +69,22 @@ header {
 		}
 	}
 }
-h1 {
-	font-size: 81px;
-	color: white;
-	text-shadow: -1px -1px white, 1px 1px #444;
-	&:first-letter {
-		font-size: 96px;
+
+/*-- main --*/
+.mainvisual {
+	margin: 0 auto;
+	width: 100%;
+	min-width: 1080px;
+	height: 491px;
+	background: url(images/mainvisual.png) no-repeat;
+	background-size: 100% auto;
+	h1 {
+		font-size: 81px;
+		color: white;
+		text-shadow: -1px -1px white, 1px 1px #444;
+		&:first-letter {
+			font-size: 96px;
+		}
 	}
 }
 
