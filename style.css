@@ -24,7 +24,8 @@ a {
 
 body {
   background: #AAA;
-  border-top: 6px solid #666666; }
+  border-top: 6px solid #666666;
+  background: #EEE; }
 
 .inner {
   width: 1080px;
