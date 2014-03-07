@@ -144,3 +144,9 @@ header {
     width: 271px;
     height: 308px;
     background: url(images/f-control.png) no-repeat; }
+
+.howto {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  background: url(images/background-gray.png); }
