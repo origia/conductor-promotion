@@ -1,0 +1,29 @@
+/*-- clear--*/
+html, body, div, p, ul, li, img, header, footer, nav, section, article, aside, figure,
+li li, li p, li pre, li dt, li dd, dd li, dd p, dd pre, dd dt, dd dd,
+h1, h2, h3, h4, h5, h6,
+input, button, textarea {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  box-shadow: none; }
+
+a {
+  text-decoration: none; }
+
+/*-- common --*/
+body {
+  background: #AAA; }
+
+.inner {
+  width: 1080px;
+  margin: 0 auto; }
+
+h1 {
+  font-size: 81px;
+  color: white;
+  text-shadow: -1px -1px white, 1px 1px #444; }
+  h1:first-letter {
+    font-size: 96px; }
