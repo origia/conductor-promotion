@@ -20,8 +20,11 @@ a {
 /*-- common --*/
 @font-face {
 	font-family: 'GillSans';
-	src: local('GillSans');
-	src: url('fonts/GillSans.ttc');
+		src: local('GillSans');
+		src: url('fonts/GillSans.ttc');
+	font-family: 'MyriadWebPro';
+		src: local('MyriadWebPro.ttf');
+		src: url('fonts/MyriadWebPro.ttf');
 }
 body {
 	background: #AAA;
@@ -75,15 +78,38 @@ header {
 	margin: 0 auto;
 	width: 100%;
 	min-width: 1080px;
-	height: 491px;
+	height: 480px;
 	background: url(images/mainvisual.png) no-repeat;
 	background-size: 100% auto;
+	background-position: center top;
 	h1 {
+		float: left;
+		margin-top: 115px;
+		margin-left: 77px;
+		width: 100%;
+		letter-spacing: 2px;
 		font-size: 81px;
+		font-weight: normal;
+		font-family: "MyriadWebPro";
 		color: white;
 		text-shadow: -1px -1px white, 1px 1px #444;
+		clear: both;
 		&:first-letter {
 			font-size: 96px;
+			font-weight: bold;
+		}
+	}
+	p {
+		float: left;
+		margin-top: 53px;
+		margin-left: 160px;
+		text-align: right;
+		font-size: 30px;
+		font-weight: normal;
+		color: white;
+		font-size: 30px;
+		big {
+			font-size: 37px;
 		}
 	}
 }
