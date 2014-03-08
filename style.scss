@@ -25,9 +25,9 @@ a {
 	font-family: 'MyriadWebPro';
 		src: local('MyriadWebPro.ttf');
 		src: url('fonts/MyriadWebPro.ttf');
-	font-family: 'KozMinPr6N-Light';
-		src: local('KozMinPr6N-Light.otf');
-		src: url('fonts/KozMinPr6N-Light.otf');
+	font-family: 'KozGoPr6N-ExtraLight';
+		src: local('KozGoPr6N-ExtraLight.otf');
+		src: url('fonts/KozGoPr6N-ExtraLight.otf');
 	font-family: 'EuphemiaCAS';
 		src: local('EuphemiaCAS.ttc');
 		src: url('fonts/EuphemiaCAS.ttc');
@@ -329,7 +329,8 @@ header {
 		}
 	}
 }
-.cooprate {
+.cooperate {
+	overflow: hidden;
 	h2 {
 		font-size: 50px;
 		text-align: center;
@@ -355,6 +356,81 @@ header {
 			margin-left: 60px;
 			margin-right: 50px;
 		}
+	}
+}
+footer {
+	position: relative;
+	width: 100%;
+	min-width: 1080px;
+	height: 878px;
+	background: url(images/footer.png);
+	background-size: 100% auto;
+	h2 {
+		color:white;
+		font-size: 70px;
+		text-align: center;
+		opacity: 0;
+	}
+	.team {
+		margin: 0 auto;
+		width: 191px;
+		height: 55px;
+		background: url(images/team.png)no-repeat;
+	}
+	.members-area {
+		position: relative;
+		top: 30px;
+		margin: 0 auto;
+		width: 1080px;
+		div {
+			position: absolute;
+			h3,p {
+				color: white;
+				text-align: center;
+				letter-spacing: 2px;
+				font-size: 25px;
+				font-weight: normal;
+				font-family: "KozGoPr6N-ExtraLight";
+			}
+			p {
+				padding-top: -5px;
+				font-size: 20px;
+			}
+			img:hover {
+				border: 3px solid $green-color;
+				border-radius: 100px;
+			}
+			&.hajime {
+				top: 50px;
+				left: 180px;
+				h3,p {
+					padding-left: -15px;
+				}
+			}
+			&.yoko {
+				top: 50px;
+				left: 740px;
+			}
+			&.daniel {
+				top: 380px;
+				left: 180px;
+			}
+			&.onishi {
+				top: 380px;
+				left: 740px;
+				h3,p {
+					margin-left: -15px;
+				}
+			}
+		}
+	}
+	.origia {
+		position: absolute;
+		top: 200px;
+		left: 400px;
+		width: 275px;
+		height: 275px;
+		background: url(images/origia.png) no-repeat;
 	}
 }
 

@@ -21,9 +21,9 @@ a {
   font-family: 'MyriadWebPro';
   src: local("MyriadWebPro.ttf");
   src: url("fonts/MyriadWebPro.ttf");
-  font-family: 'KozMinPr6N-Light';
-  src: local("KozMinPr6N-Light.otf");
-  src: url("fonts/KozMinPr6N-Light.otf");
+  font-family: 'KozGoPr6N-ExtraLight';
+  src: local("KozGoPr6N-ExtraLight.otf");
+  src: url("fonts/KozGoPr6N-ExtraLight.otf");
   font-family: 'EuphemiaCAS';
   src: local("EuphemiaCAS.ttc");
   src: url("fonts/EuphemiaCAS.ttc"); }
@@ -281,24 +281,87 @@ header {
         color: #00b2b2;
         padding-right: 30px; }
 
-.cooprate h2 {
-  font-size: 50px;
-  text-align: center;
-  opacity: 0; }
-.cooprate .support {
-  margin: 0 auto;
-  margin-top: 140px;
-  width: 642px;
-  height: 47px;
-  background: url(images/supported.png) no-repeat; }
-.cooprate .company {
-  margin: 0 auto;
-  margin-top: 130px;
-  width: 1080px; }
-  .cooprate .company div {
-    float: left;
-    margin-left: 50px;
-    padding-bottom: 100px; }
-  .cooprate .company div:nth-child(2) {
-    margin-left: 60px;
-    margin-right: 50px; }
+.cooperate {
+  overflow: hidden; }
+  .cooperate h2 {
+    font-size: 50px;
+    text-align: center;
+    opacity: 0; }
+  .cooperate .support {
+    margin: 0 auto;
+    margin-top: 140px;
+    width: 642px;
+    height: 47px;
+    background: url(images/supported.png) no-repeat; }
+  .cooperate .company {
+    margin: 0 auto;
+    margin-top: 130px;
+    width: 1080px; }
+    .cooperate .company div {
+      float: left;
+      margin-left: 50px;
+      padding-bottom: 100px; }
+    .cooperate .company div:nth-child(2) {
+      margin-left: 60px;
+      margin-right: 50px; }
+
+footer {
+  position: relative;
+  width: 100%;
+  min-width: 1080px;
+  height: 878px;
+  background: url(images/footer.png);
+  background-size: 100% auto; }
+  footer h2 {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    opacity: 0; }
+  footer .team {
+    margin: 0 auto;
+    width: 191px;
+    height: 55px;
+    background: url(images/team.png) no-repeat; }
+  footer .members-area {
+    position: relative;
+    top: 30px;
+    margin: 0 auto;
+    width: 1080px; }
+    footer .members-area div {
+      position: absolute; }
+      footer .members-area div h3, footer .members-area div p {
+        color: white;
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 25px;
+        font-weight: normal;
+        font-family: "KozGoPr6N-ExtraLight"; }
+      footer .members-area div p {
+        padding-top: -5px;
+        font-size: 20px; }
+      footer .members-area div img:hover {
+        border: 3px solid #00b2b2;
+        border-radius: 100px; }
+      footer .members-area div.hajime {
+        top: 50px;
+        left: 180px; }
+        footer .members-area div.hajime h3, footer .members-area div.hajime p {
+          padding-left: -15px; }
+      footer .members-area div.yoko {
+        top: 50px;
+        left: 740px; }
+      footer .members-area div.daniel {
+        top: 380px;
+        left: 180px; }
+      footer .members-area div.onishi {
+        top: 380px;
+        left: 740px; }
+        footer .members-area div.onishi h3, footer .members-area div.onishi p {
+          margin-left: -15px; }
+  footer .origia {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    width: 275px;
+    height: 275px;
+    background: url(images/origia.png) no-repeat; }
