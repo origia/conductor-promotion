@@ -31,7 +31,8 @@ a {
 body {
   background: #AAA;
   border-top: 6px solid #666666;
-  background: #EEE; }
+  background: #EEE;
+  min-width: 1080px; }
 
 .inner {
   width: 1080px;
@@ -301,8 +302,10 @@ header {
       float: left;
       margin-left: 50px;
       padding-bottom: 100px; }
-    .cooperate .company div:nth-child(2) {
-      margin-left: 60px;
+      .cooperate .company div:hover {
+        opacity: 0.7; }
+    .cooperate .company div.pux {
+      margin-left: 70px;
       margin-right: 50px; }
 
 footer {
@@ -313,6 +316,8 @@ footer {
   background: url(images/footer.png);
   background-size: 100% auto; }
   footer h2 {
+    padding-top: 60px;
+    margin-bottom: -60px;
     color: white;
     font-size: 70px;
     text-align: center;
