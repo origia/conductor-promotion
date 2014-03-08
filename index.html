@@ -5,6 +5,19 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Conductor | Controll TV as you like by your finger.</title>
 	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		$('a[href^=#]').click(function(){
+			var speed = 4000;
+			var href= $(this).attr("href");
+			var target = $(href == "#" || href == "" ? 'html' : href);
+			var position = target.offset().top;
+			$("html, body").animate({scrollTop:position}, speed, "swing");
+			return false;
+		});
+	});
+	</script>
 </head>
 <body>
 	<header>
