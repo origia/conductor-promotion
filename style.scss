@@ -1,4 +1,4 @@
-$main-color: #3777B2;
+$green-color: #00B2B2;
 $gray-color: #666;
 
 /*-- clear--*/
@@ -28,6 +28,9 @@ a {
 	font-family: 'KozMinPr6N-Light';
 		src: local('KozMinPr6N-Light.otf');
 		src: url('fonts/KozMinPr6N-Light.otf');
+	font-family: 'EuphemiaCAS';
+		src: local('EuphemiaCAS.ttc');
+		src: url('fonts/EuphemiaCAS.ttc');
 }
 body {
 	background: #AAA;
@@ -140,6 +143,7 @@ header {
 	.three {
 		margin: 0 auto;
 		margin-top: 80px;
+		margin-bottom: -100px;
 		width: 980px;
 		overflow: hidden;
 		color: $gray-color;
@@ -175,6 +179,154 @@ header {
 	margin-top: 20px;
 	width: 100%;
 	height: auto;
+	overflow: hidden;
 	background: url(images/background-gray.png);
+	.search {
+		float: left;
+		margin-top: 220px;
+		margin-bottom: 60px;
+		width: 1080px;
+		height: 410px;
+		background: url(images/h-circle.png);
+		.headline {
+			float: left;
+			margin-top: -140px;
+			margin-left: 40px;
+			width: 326px;
+			height: 89px;
+			background: url(images/h-search.png) no-repeat;
+		}
+		h3 {
+			float: left;
+			margin-top: -150px;
+			margin-left: 50px;
+			font-size: 88px;
+			opacity: 0;
+		}
+		.description {
+			margin-top: 25px;
+			text-align: right;
+			font-size: 27px;
+			color: white;
+			font-weight: bold;
+			p {
+				margin-bottom: 20px;
+				padding-top: 35px;
+				font-family: "Hiragino Kaku Gothic Pro";
+				font-weight: normal;
+				letter-spacing: 2px;
+			}
+			p:first-child {
+				padding-right: 70px;
+				font-size: 32px;
+			}
+			p:first-child:first-letter {
+				font-size: 88px;
+				font-weight: bold;
+				font-family: "EuphemiaCAS";
+				color: $green-color;
+				padding-right: 40px;
+			}
+		}
+	}
+	.purchase {
+		float: left;
+		margin-top: 220px;
+		margin-bottom: 60px;
+		width: 1080px;
+		height: 410px;
+		background: url(images/h-square.png);
+		.headline {
+			float: left;
+			margin-top: -140px;
+			margin-left: 40px;
+			width: 401px;
+			height: 90px;
+			background: url(images/h-purchase.png) no-repeat;
+		}
+		h3 {
+			float: left;
+			margin-top: -150px;
+			margin-left: 50px;
+			font-size: 88px;
+			opacity: 0;
+		}
+		.description {
+			margin-top: 20px;
+			text-align: right;
+			font-size: 27px;
+			color: white;
+			font-weight: bold;
+			p {
+				margin-bottom: 20px;
+				padding-top: 10px;
+				font-family: "Hiragino Kaku Gothic Pro";
+				font-weight: normal;
+				letter-spacing: 2px;
+			}
+			p:first-child {
+				padding-right: 70px;
+				font-size: 32px;
+			}
+			p:first-child:first-letter {
+				font-size: 88px;
+				font-weight: bold;
+				font-family: "EuphemiaCAS";
+				color: $green-color;
+				padding-right: 40px;
+			}
+			p:nth-child(2) {
+				padding-right: 40px;
+			}
+		}
+	}
+	.control {
+		float: left;
+		margin-top: 220px;
+		margin-bottom: 60px;
+		width: 1080px;
+		height: 410px;
+		background: url(images/h-pinch.png);
+		.headline {
+			float: left;
+			margin-top: -140px;
+			margin-left: 40px;
+			width: 353px;
+			height: 78px;
+			background: url(images/h-control.png) no-repeat;
+		}
+		h3 {
+			float: left;
+			margin-top: -150px;
+			margin-left: 50px;
+			font-size: 88px;
+			opacity: 0;
+		}
+		.description {
+			margin-top: 5px;
+			text-align: right;
+			font-size: 27px;
+			color: white;
+			font-weight: bold;
+			p {
+				margin-bottom: 20px;
+				padding-top: 25px;
+				font-family: "Hiragino Kaku Gothic Pro";
+				font-weight: normal;
+				letter-spacing: 2px;
+			}
+			p:first-child {
+				padding-right: 35px;
+				font-size: 32px;
+			}
+			p:first-child:first-letter {
+				font-size: 88px;
+				font-weight: bold;
+				font-family: "EuphemiaCAS";
+				color: $green-color;
+				padding-right: 30px;
+			}
+		}
+	}
 }
 

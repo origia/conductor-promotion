@@ -23,7 +23,10 @@ a {
   src: url("fonts/MyriadWebPro.ttf");
   font-family: 'KozMinPr6N-Light';
   src: local("KozMinPr6N-Light.otf");
-  src: url("fonts/KozMinPr6N-Light.otf"); }
+  src: url("fonts/KozMinPr6N-Light.otf");
+  font-family: 'EuphemiaCAS';
+  src: local("EuphemiaCAS.ttc");
+  src: url("fonts/EuphemiaCAS.ttc"); }
 
 body {
   background: #AAA;
@@ -118,6 +121,7 @@ header {
 .feature .three {
   margin: 0 auto;
   margin-top: 80px;
+  margin-bottom: -100px;
   width: 980px;
   overflow: hidden;
   color: #666666;
@@ -149,4 +153,130 @@ header {
   margin-top: 20px;
   width: 100%;
   height: auto;
+  overflow: hidden;
   background: url(images/background-gray.png); }
+  .howto .search {
+    float: left;
+    margin-top: 220px;
+    margin-bottom: 60px;
+    width: 1080px;
+    height: 410px;
+    background: url(images/h-circle.png); }
+    .howto .search .headline {
+      float: left;
+      margin-top: -140px;
+      margin-left: 40px;
+      width: 326px;
+      height: 89px;
+      background: url(images/h-search.png) no-repeat; }
+    .howto .search h3 {
+      float: left;
+      margin-top: -150px;
+      margin-left: 50px;
+      font-size: 88px;
+      opacity: 0; }
+    .howto .search .description {
+      margin-top: 25px;
+      text-align: right;
+      font-size: 27px;
+      color: white;
+      font-weight: bold; }
+      .howto .search .description p {
+        margin-bottom: 20px;
+        padding-top: 35px;
+        font-family: "Hiragino Kaku Gothic Pro";
+        font-weight: normal;
+        letter-spacing: 2px; }
+      .howto .search .description p:first-child {
+        padding-right: 70px;
+        font-size: 32px; }
+      .howto .search .description p:first-child:first-letter {
+        font-size: 88px;
+        font-weight: bold;
+        font-family: "EuphemiaCAS";
+        color: #00b2b2;
+        padding-right: 40px; }
+  .howto .purchase {
+    float: left;
+    margin-top: 220px;
+    margin-bottom: 60px;
+    width: 1080px;
+    height: 410px;
+    background: url(images/h-square.png); }
+    .howto .purchase .headline {
+      float: left;
+      margin-top: -140px;
+      margin-left: 40px;
+      width: 401px;
+      height: 90px;
+      background: url(images/h-purchase.png) no-repeat; }
+    .howto .purchase h3 {
+      float: left;
+      margin-top: -150px;
+      margin-left: 50px;
+      font-size: 88px;
+      opacity: 0; }
+    .howto .purchase .description {
+      margin-top: 20px;
+      text-align: right;
+      font-size: 27px;
+      color: white;
+      font-weight: bold; }
+      .howto .purchase .description p {
+        margin-bottom: 20px;
+        padding-top: 10px;
+        font-family: "Hiragino Kaku Gothic Pro";
+        font-weight: normal;
+        letter-spacing: 2px; }
+      .howto .purchase .description p:first-child {
+        padding-right: 70px;
+        font-size: 32px; }
+      .howto .purchase .description p:first-child:first-letter {
+        font-size: 88px;
+        font-weight: bold;
+        font-family: "EuphemiaCAS";
+        color: #00b2b2;
+        padding-right: 40px; }
+      .howto .purchase .description p:nth-child(2) {
+        padding-right: 40px; }
+  .howto .control {
+    float: left;
+    margin-top: 220px;
+    margin-bottom: 60px;
+    width: 1080px;
+    height: 410px;
+    background: url(images/h-pinch.png); }
+    .howto .control .headline {
+      float: left;
+      margin-top: -140px;
+      margin-left: 40px;
+      width: 353px;
+      height: 78px;
+      background: url(images/h-control.png) no-repeat; }
+    .howto .control h3 {
+      float: left;
+      margin-top: -150px;
+      margin-left: 50px;
+      font-size: 88px;
+      opacity: 0; }
+    .howto .control .description {
+      margin-top: 5px;
+      text-align: right;
+      font-size: 27px;
+      color: white;
+      font-weight: bold; }
+      .howto .control .description p {
+        margin-bottom: 20px;
+        padding-top: 25px;
+        font-family: "Hiragino Kaku Gothic Pro";
+        font-weight: normal;
+        letter-spacing: 2px; }
+      .howto .control .description p:first-child {
+        padding-right: 35px;
+        font-size: 32px; }
+      .howto .control .description p:first-child:first-letter {
+        font-size: 88px;
+        font-weight: bold;
+        font-family: "EuphemiaCAS";
+        color: #00b2b2;
+        padding-right: 30px; }
