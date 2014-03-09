@@ -188,7 +188,7 @@ header {
 		margin-bottom: 60px;
 		width: 1080px;
 		height: 410px;
-		background: url(images/h-circle.png);
+		background: url(images/h-circle.png) no-repeat;
 		.headline {
 			float: left;
 			margin-top: -140px;
@@ -230,13 +230,49 @@ header {
 			}
 		}
 	}
+	.music {
+		float: left;
+		margin-top: 30px;
+		margin-bottom: 60px;
+		width: 1080px;
+		height: 405px;
+		background: url(images/h-music.png) no-repeat;
+		.description {
+			margin-top: 20px;
+			text-align: left;
+			font-size: 27px;
+			color: white;
+			font-weight: bold;
+			p {
+				margin-bottom: 20px;
+				padding-top: 15px;
+				font-family: "Hiragino Kaku Gothic Pro";
+				font-weight: normal;
+				letter-spacing: 2px;
+			}
+			p:first-child {
+				padding-left: 75px;
+				font-size: 32px;
+			}
+			p:first-child:first-letter {
+				font-size: 88px;
+				font-weight: bold;
+				font-family: "EuphemiaCAS";
+				color: $green-color;
+				padding-right: 20px;
+			}
+			p:nth-child(2) {
+				padding-right: 40px;
+			}
+		}
+	}
 	.purchase {
 		float: left;
 		margin-top: 220px;
 		margin-bottom: 60px;
 		width: 1080px;
-		height: 410px;
-		background: url(images/h-square.png);
+		height: 405px;
+		background: url(images/h-checkitout.png);
 		.headline {
 			float: left;
 			margin-top: -140px;
@@ -255,7 +291,7 @@ header {
 		.description {
 			margin-top: 20px;
 			text-align: right;
-			font-size: 27px;
+			font-size: 25px;
 			color: white;
 			font-weight: bold;
 			p {
@@ -266,7 +302,7 @@ header {
 				letter-spacing: 2px;
 			}
 			p:first-child {
-				padding-right: 70px;
+				padding-right: 0px;
 				font-size: 32px;
 			}
 			p:first-child:first-letter {
@@ -279,6 +315,10 @@ header {
 			p:nth-child(2) {
 				padding-right: 40px;
 			}
+			small {
+				color: #DDD;
+				font-size: 11px;
+			}
 		}
 	}
 	.control {
@@ -287,7 +327,7 @@ header {
 		margin-bottom: 60px;
 		width: 1080px;
 		height: 410px;
-		background: url(images/h-pinch.png);
+		background: url(images/h-pinch.png) no-repeat;
 		.headline {
 			float: left;
 			margin-top: -140px;
@@ -329,8 +369,43 @@ header {
 			}
 		}
 	}
+	.pause {
+		float: left;
+		margin-top: 20px;
+		margin-bottom: 60px;
+		width: 1080px;
+		height: 418px;
+		background: url(images/h-pause.png) no-repeat;
+		.description {
+			margin-top: 35px;
+			text-align: left;
+			font-size: 24px;
+			color: white;
+			font-weight: bold;
+			line-height: 1.4em;
+			p {
+				margin-bottom: 20px;
+				padding-top: 25px;
+				font-family: "Hiragino Kaku Gothic Pro";
+				font-weight: normal;
+				letter-spacing: 2px;
+			}
+			p:first-child {
+				padding-left: 115px;
+				font-size: 32px;
+			}
+			p:first-child:first-letter {
+				font-size: 88px;
+				font-weight: bold;
+				font-family: "EuphemiaCAS";
+				color: $green-color;
+				padding-right: 50px;
+			}
+		}
+	}
 }
 .cooperate {
+	padding-bottom: 50px;
 	overflow: hidden;
 	h2 {
 		font-size: 50px;

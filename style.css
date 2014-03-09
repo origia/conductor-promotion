@@ -162,7 +162,7 @@ header {
     margin-bottom: 60px;
     width: 1080px;
     height: 410px;
-    background: url(images/h-circle.png); }
+    background: url(images/h-circle.png) no-repeat; }
     .howto .search .headline {
       float: left;
       margin-top: -140px;
@@ -197,13 +197,43 @@ header {
         font-family: "EuphemiaCAS";
         color: #00b2b2;
         padding-right: 40px; }
+  .howto .music {
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 1080px;
+    height: 405px;
+    background: url(images/h-music.png) no-repeat; }
+    .howto .music .description {
+      margin-top: 20px;
+      text-align: left;
+      font-size: 27px;
+      color: white;
+      font-weight: bold; }
+      .howto .music .description p {
+        margin-bottom: 20px;
+        padding-top: 15px;
+        font-family: "Hiragino Kaku Gothic Pro";
+        font-weight: normal;
+        letter-spacing: 2px; }
+      .howto .music .description p:first-child {
+        padding-left: 75px;
+        font-size: 32px; }
+      .howto .music .description p:first-child:first-letter {
+        font-size: 88px;
+        font-weight: bold;
+        font-family: "EuphemiaCAS";
+        color: #00b2b2;
+        padding-right: 20px; }
+      .howto .music .description p:nth-child(2) {
+        padding-right: 40px; }
   .howto .purchase {
     float: left;
     margin-top: 220px;
     margin-bottom: 60px;
     width: 1080px;
-    height: 410px;
-    background: url(images/h-square.png); }
+    height: 405px;
+    background: url(images/h-checkitout.png); }
     .howto .purchase .headline {
       float: left;
       margin-top: -140px;
@@ -220,7 +250,7 @@ header {
     .howto .purchase .description {
       margin-top: 20px;
       text-align: right;
-      font-size: 27px;
+      font-size: 25px;
       color: white;
       font-weight: bold; }
       .howto .purchase .description p {
@@ -230,7 +260,7 @@ header {
         font-weight: normal;
         letter-spacing: 2px; }
       .howto .purchase .description p:first-child {
-        padding-right: 70px;
+        padding-right: 0px;
         font-size: 32px; }
       .howto .purchase .description p:first-child:first-letter {
         font-size: 88px;
@@ -240,13 +270,16 @@ header {
         padding-right: 40px; }
       .howto .purchase .description p:nth-child(2) {
         padding-right: 40px; }
+      .howto .purchase .description small {
+        color: #DDD;
+        font-size: 11px; }
   .howto .control {
     float: left;
     margin-top: 220px;
     margin-bottom: 60px;
     width: 1080px;
     height: 410px;
-    background: url(images/h-pinch.png); }
+    background: url(images/h-pinch.png) no-repeat; }
     .howto .control .headline {
       float: left;
       margin-top: -140px;
@@ -281,8 +314,38 @@ header {
         font-family: "EuphemiaCAS";
         color: #00b2b2;
         padding-right: 30px; }
+  .howto .pause {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    width: 1080px;
+    height: 418px;
+    background: url(images/h-pause.png) no-repeat; }
+    .howto .pause .description {
+      margin-top: 35px;
+      text-align: left;
+      font-size: 24px;
+      color: white;
+      font-weight: bold;
+      line-height: 1.4em; }
+      .howto .pause .description p {
+        margin-bottom: 20px;
+        padding-top: 25px;
+        font-family: "Hiragino Kaku Gothic Pro";
+        font-weight: normal;
+        letter-spacing: 2px; }
+      .howto .pause .description p:first-child {
+        padding-left: 115px;
+        font-size: 32px; }
+      .howto .pause .description p:first-child:first-letter {
+        font-size: 88px;
+        font-weight: bold;
+        font-family: "EuphemiaCAS";
+        color: #00b2b2;
+        padding-right: 50px; }
 
 .cooperate {
+  padding-bottom: 50px;
   overflow: hidden; }
   .cooperate h2 {
     font-size: 50px;
