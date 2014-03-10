@@ -17,13 +17,19 @@ a {
 @font-face {
   font-family: 'GillSans';
   src: local("GillSans");
-  src: url("fonts/GillSans.ttc");
+  src: url("fonts/GillSans.ttc"); }
+
+@font-face {
   font-family: 'MyriadWebPro';
   src: local("MyriadWebPro.ttf");
-  src: url("fonts/MyriadWebPro.ttf");
+  src: url("fonts/MyriadWebPro.ttf"); }
+
+@font-face {
   font-family: 'KozGoPr6N-ExtraLight';
   src: local("KozGoPr6N-ExtraLight.otf");
-  src: url("fonts/KozGoPr6N-ExtraLight.otf");
+  src: url("fonts/KozGoPr6N-ExtraLight.otf"); }
+
+@font-face {
   font-family: 'EuphemiaCAS';
   src: local("EuphemiaCAS.ttc");
   src: url("fonts/EuphemiaCAS.ttc"); }
